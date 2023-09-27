@@ -4,15 +4,30 @@
             <img src="../assets/img/icon.svg" alt="">
       </div>
       <div class="icon-bag">
-            <button> <img src="../assets/img/bag.svg" alt=""> pokedex</button>
+            <button> <div class="bag">
+                  <img src="../assets/img/bag.svg" alt="">
+            </div> pokedex</button>
       </div>
       <div class="container-tittle">
             <h1>Who is that Pokémon?</h1>
             <h4>The perfect guide for those who want to hunt Pokémons around the world</h4>
       </div>
-      <div class="icon-pokedex">
-            <img src="../assets/img/pokeball-red.png" alt="">
+</div>
+<div class="icon-pokedex">
+      <div class="container-stars">
+            <img src="../assets/img/lighting.svg" alt="">
       </div>
+      <img src="../assets/img/pokeball-red.png" alt="">
+</div>
+<div class="container-bottom">
+      <div class="select-pokemon">
+            <h1>Select your <br> Pokémon</h1>
+      </div>
+</div>
+<div class="search-container">
+      <form action="/search" method="get">
+            <input type="text" name="q" id="search-box" placeholder="Search name or code">
+      </form>
 </div>
 <app-pokemon-list></app-pokemon-list>
 
