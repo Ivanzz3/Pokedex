@@ -3,10 +3,24 @@
   font-family: 'Inter', sans-serif
   font-family: 'Montserrat', sans-serif
 
+a 
+  text-decoration: none
+
+li 
+  display: flex
+  justify-content: baseline
+  list-style-type: none
+
+
+form
+  display: flex
+  justify-content: baseline
+  align-items: center
+  
 button
   display: flex
   border-radius: 45px
-  font-size: 14px
+  font-size: 20px
   color:  rgba(194, 0, 1, 1)
   border: none
 
@@ -58,9 +72,9 @@ button
 
 /* Estilo para a barra de pesquisa */
 .search-container 
+  display: flex
   position: relative
   text-align: center
-  display: flex
   flex-direction: row-reverse
   margin-right: 93px
   height: 100px
@@ -69,8 +83,8 @@ button
 
 
 #search-box 
-    padding: 10px
-    border: 1px solid #ccc
+    padding: 14px
+    border: none
     border-radius: 20px
     width: 250px
     
@@ -88,4 +102,17 @@ button
 
 /* Estilo quando o botão de pesquisa é hover (passa o mouse por cima) */
 #search-button:hover 
-    background-color: #0056b3
+    background-color: #0056b3  
+
+.number-pokemons 
+  position: relative
+  display: flex
+  margin-left: 420px 
+  span
+    font-weight: 600
+    font-size: 1.8rem
+    line-height: 150%
+    color: #4D5053
+    font-family: "Montserrat", sans-serif
+    margin: 10px
+    margin-top: 100px
